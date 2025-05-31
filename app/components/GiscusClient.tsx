@@ -1,9 +1,9 @@
 "use client";
 
-import GiscusComments from './giscus';
+import GiscusComments from "./giscus";
 
 const GiscusCommentsClient = ({ slug }: { slug: string }) => {
-  return <GiscusComments />;
+	return <GiscusComments />;
 };
 
 export default GiscusCommentsClient;
